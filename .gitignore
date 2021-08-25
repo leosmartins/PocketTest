@@ -4,10 +4,6 @@
 
 tomcat
 
-#
-# Default excludes
-#
-
 # Binaries
 *.7z
 *.dmg
@@ -54,3 +50,11 @@ nb-configuration.xml
 release.properties
 pom.xml.releaseBackup
 pom.xml.tag
+
+# Gradle
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
