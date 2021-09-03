@@ -14,25 +14,8 @@ dependencies {
     testImplementation 'com.codeborne:selenide:5.21.0'
     testImplementation group: 'io.rest-assured', name: 'rest-assured', version: '4.3.3'
     testImplementation group: 'org.hamcrest', name: 'hamcrest', version: '2.2'
-
-}
-
-test {
-    useJUnitPlatform()
 }
 
 test {
     useTestNG()
-}
-
-task interfaceTests(type: Test) {
-    useTestNG() {
-        includeGroups 'interface'
-    }
-}
-
-task apiTests(type: Test) {
-    useTestNG() {
-        includeGroups 'api'
-    }
 }
