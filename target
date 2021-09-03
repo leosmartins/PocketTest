@@ -1,0 +1,91 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-03T18:44:25.768Z",
+        "line": 5,
+        "name": "Ao realizar uma pesquisa no Google, devo obter alguns resultados de pesquisa",
+        "description": "",
+        "id": "pesquisa-no-google;ao-realizar-uma-pesquisa-no-google--devo-obter-alguns-resultados-de-pesquisa",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "navegar para a pagina",
+            "match": {},
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "realizar a pesquisa de algum termo",
+            "match": {},
+            "keyword": "Entao "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "devo obter um conjunto de resultados",
+            "match": {},
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "Pesquisa no Google",
+    "description": "",
+    "id": "pesquisa-no-google",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/java/funcional/cucumber/features/Ex01.feature",
+    "tags": []
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-03T18:44:25.802Z",
+        "line": 5,
+        "name": "Preencher alguns campos do formulário online",
+        "description": "",
+        "id": "preencher-formulário-online;preencher-alguns-campos-do-formulário-online",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "navegar para a pagina do formulario",
+            "match": {},
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "devo preencher os campos",
+            "match": {},
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "Preencher formulário online",
+    "description": "",
+    "id": "preencher-formulário-online",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/java/funcional/cucumber/features/Ex02.feature",
+    "tags": []
+  }
+]
